@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <div>
-      <h1>Artists</h1>
+      <h1>Wavelength Records</h1>
       <ArtistList artists={data.artists}/>
     </div>
     </>

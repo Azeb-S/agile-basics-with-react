@@ -1,13 +1,13 @@
+import ArtistCard from './ArtistCard'
+
 function ArtistList({ artists }) {
   return (
     <div>
       {artists.map((artist) => (
-        <div key={artist.id}>
-          <h3>{artist.name}</h3>
-          <p>{artist.genre}</p>
-        </div>
+        <ArtistCard key={artist.id} artist={artist} />
       ))}
-    </div>
+        </div>
+     
   )
 }
 
